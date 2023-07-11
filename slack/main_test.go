@@ -97,6 +97,7 @@ func TestWriteMessage(t *testing.T) {
 				},
 			},
 		}},
+		Text: "Build success!"
 	}
 
 	if diff := cmp.Diff(got, want); diff != "" {
